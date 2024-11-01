@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main(){
     
-    int velo;
+    int velo, multa = 10;
     printf("Digite a velocidade:");
     scanf("%d",&velo);
     if (velo <= 80){
-        printf("Verde");
+        printf("ta suave");
     }
     else{
-        printf("Vermelho");
+        multa=(velo - 80) * 10;
+        printf("Multa: %d",multa);
     }
 
 }
