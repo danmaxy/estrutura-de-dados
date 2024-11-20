@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main(){
-    double s;
+    double s, a;
     double *p;
     printf("Digite o salario:");
     scanf("%lf",&s);
     p = &s;
-    printf("%lf\n%p",*p,&p);
+    *p = *p * 1.10; //10%
+    printf("%.2lf",*p);
+
 }
