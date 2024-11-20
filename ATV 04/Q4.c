@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    double s, a;
+    double s;
     double *p;
     printf("Digite o salario:");
     scanf("%lf",&s);
