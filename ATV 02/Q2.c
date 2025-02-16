@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     
-    int velo, mult = 10;
+    int velo, multa = 10;
     printf("Digite a velocidade:");
     scanf("%d",&velo);
     if (velo <= 80){
@@ -9,8 +9,8 @@ int main(){
     }
 
     else{
-        mult=(velo - 80) * 10;
-        printf("Multa: %d",mult);
+        multa=(velo - 80) * 10;
+        printf("Multa: %d",multa);
     }
 
 }
